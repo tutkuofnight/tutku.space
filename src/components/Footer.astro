@@ -1,31 +1,45 @@
 ---
-import { Github } from '@lucide/astro';
+
 ---
 
 <footer>
+	<code class="spell">@tutkuofnight ~ 01010010</code>
 	<div class="social-links">
+		<a href="https://bsky.app/profile/tutku.space" target="_blank">
+			<img src="/bluesky.png" alt="bsky.app/profile/tutku.space" width="26">
+		</a>
 		<a href="https://github.com/tutkuofnight" target="_blank">
-			<Github />
+			<img src="/github.png" alt="github.com/tutkuofnight" width="24">
+		</a>
+		<a href="https://www.linkedin.com/in/tutkuucan/" target="_blank">
+			<img src="/linkedin.svg" alt="linkedin.com/tutkuucan" width="26">
 		</a>
 	</div>
 </footer>
 
 <style>
 	footer {
-		color: rgb(var(--gray));
+		width: var(--screen-width);
+		margin: 1em auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 		text-align: center;
 	}
 	.social-links {
 		display: flex;
 		justify-content: center;
+		height: 26px;
 		gap: 1em;
-		margin-top: 1em;
 	}
 	.social-links a {
 		text-decoration: none;
-		color: rgb(var(--gray));
+		color: lightgray;
 	}
 	.social-links a:hover {
-		color: rgb(var(--gray-dark));
+		opacity: 0.8;
+	}
+	.spell {
+		font-size: 14px;
 	}
 </style>
