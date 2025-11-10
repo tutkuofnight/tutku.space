@@ -19,11 +19,12 @@
 
 <style>
 	footer {
-		width: var(--screen-width);
+		width: 100%;
+		max-width: var(--screen-width);
 		margin: 1em auto;
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: space-around;
 		text-align: center;
 	}
 	.social-links {
@@ -41,5 +42,10 @@
 	}
 	.spell {
 		font-size: 14px;
+	}
+	@media (min-width: 768px) {
+		footer {
+			justify-content: space-between
+		}
 	}
 </style>

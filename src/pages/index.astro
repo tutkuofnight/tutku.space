@@ -1,8 +1,9 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
-import Navigation from '../components/Navigation.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import Introduction from "../content/introduction.md"
+import Header from "../components/Header.astro"
 ---
 
 <!doctype html>
@@ -10,17 +11,10 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
+	<Header />
 	<body>
 		<main>
-			<div class="home-head">
-				<img src="/avatar.jpg" alt="tutku" class="avatar">
-				<div>
-					<small>Hello! Merhaba! こんにちは!</small>
-					<h1 style="font-size: 26px;">tutku here <br/> and this is my space</h1>
-					<Navigation />
-				</div>
-			</div>
-			<p>this area will fill soon..</p>
+			<Introduction />
 			<img src="https://ghchart.rshah.org/tutkuofnight" alt="https://github.com/tutkuofnight" class="github-contributions">
 		</main>
 		<Footer />
@@ -28,18 +22,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 </html>
 
 <style>
-	.home-head {
-		display: flex;
-		align-items: center;
-		gap: 30px;
-	}
 	.github-contributions {
 		width: 100%
-	}
-	@media (max-width: 768px) {
-		.home-head {
-			flex-direction: column;
-			align-items: start;
-		}
 	}
 </style>

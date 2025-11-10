@@ -1,0 +1,1 @@
+I am a Software Developer & Instuctor. I like developing web & mobile products. Currently I'm giving lessons and providing Project Leadership at [Archi's Academy](https://archisacademy.com/en) 
