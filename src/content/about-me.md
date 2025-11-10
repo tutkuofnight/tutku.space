@@ -1,0 +1,7 @@
+In the beginning of my childhood, I was always curious about Software Development. But I didn't know where to start learning. As you know, there is a lot of branch in software industry. I finally enrolled to Technical High School IT & Web Design major. And my first code was ```Console.WriteLine("hello world!")``` just like every developer at the beginning. C# was a good language but it became to game changer in my life when i met with JavaScript.
+
+JavaScript taught me the Open Source and the Web concepts. I built a lot of apps & web clients. Then i started to take freelance jobs from my circle. This helped me to get my first job at the company. I was 18 when i joined a company. I learned the things about the industry and how an application releases in real life. Then time passed and i became a 4+ years experienced developer.
+
+I contributed a lot of projects to release in companies and i am still keep going to develop my projects in my github. Currently in my career, i am working as Freelance Full-Stack Developer and i am working as Frontend Development Instructor at  [Archi's Academy](https://archisacademy.com/en). I am giving lessons there and doing Project Leadership for the students. And helping people to learn Software Development right way.
+
+So this is the sort story about me. Welcome to my space. Also you can find my social media & github accounts below. You can contact with me whenever you want.

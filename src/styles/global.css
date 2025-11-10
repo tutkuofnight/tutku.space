@@ -49,7 +49,7 @@ main {
 	width: var(--screen-width);
 	max-width: calc(100% - 2em);
 	margin: auto;
-	padding: 3em 1em;
+	padding: 1em;
 }
 h1,
 h2,
@@ -109,6 +109,10 @@ img {
 code {
 	padding: 2px 5px;
 	border-radius: 2px;
+}
+.content code {
+	background: rgb(39, 39, 39);
+	color: var(--accent);
 }
 pre {
 	padding: 1.5em;
